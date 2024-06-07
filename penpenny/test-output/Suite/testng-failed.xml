@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite]">
+  <test thread-count="5" name="test(failed)">
+    <classes>
+      <class name="Vitalize.EditOrganization">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setExtentreport"/>
+          <include name="setup"/>
+          <include name="edit"/>
+          <include name="endExtentreport"/>
+        </methods>
+      </class> <!-- Vitalize.EditOrganization -->
+      <class name="Vitalize.DeleteOraganization">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Oragnization"/>
+          <include name="setExtentreport"/>
+          <include name="setup"/>
+          <include name="endExtentreport"/>
+        </methods>
+      </class> <!-- Vitalize.DeleteOraganization -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [suite] -->
